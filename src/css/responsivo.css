@@ -1,0 +1,36 @@
+@media(max-width: 768px){
+
+    .cartao{
+        width: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .informacoes-abas .descricao {
+        font-size: 20px;
+        max-height: 75px;
+        overflow-y: auto;
+        padding-right: 15px;
+    }
+
+    .cartao .conteudo {
+        max-width: 250px;
+        height: 200px;
+    }
+
+    .informacoes-abas .informacao {
+        min-height: initial;
+        padding: 15px;
+        display: none;
+    }
+
+    .redes-sociais {
+        max-height: 75px;
+    }
+
+    .redes-sociais li a {
+        width: 200px;
+        padding: 5px;
+    }
+
+}
